@@ -57,13 +57,6 @@ class ViewController: UIViewController {
         guard let rct = rect else {
             return image
         }
-
-        //イメージの解像度に従いrect換算
-        //let scale = originalImage.scale
-        //let scale = UIScreen.mainScreen().scale
-        //print("scale\(scale)")
-        //let clipRect = CGRectMake(rct.origin.x * scale, rct.origin.y * scale, rct.size.width * scale, rct.size.height * scale)
-        //print("clipRect\(clipRect)")
         
         // ソース画像からCGImageを取り出し、指定された範囲を切り抜いたCGImageを生成
         let cripImageRef = CGImageCreateWithImageInRect(originalImage.CGImage, rct)

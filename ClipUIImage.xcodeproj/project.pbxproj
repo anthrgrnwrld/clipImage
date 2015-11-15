@@ -14,6 +14,8 @@
 		36A3C2D51BF2ABB9001941D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A3C2D31BF2ABB9001941D6 /* LaunchScreen.storyboard */; };
 		36A3C2E01BF2ABB9001941D6 /* ClipUIImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C2DF1BF2ABB9001941D6 /* ClipUIImageTests.swift */; };
 		36A3C2EB1BF2ABB9001941D6 /* ClipUIImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3C2EA1BF2ABB9001941D6 /* ClipUIImageUITests.swift */; };
+		36A3C2F91BF3515A001941D6 /* mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36A3C2F81BF3515A001941D6 /* mountain.jpg */; };
+		36A3C2FB1BF5F316001941D6 /* mountain_L.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36A3C2FA1BF5F316001941D6 /* mountain_L.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		36A3C2E61BF2ABB9001941D6 /* ClipUIImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipUIImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A3C2EA1BF2ABB9001941D6 /* ClipUIImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipUIImageUITests.swift; sourceTree = "<group>"; };
 		36A3C2EC1BF2ABB9001941D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A3C2F81BF3515A001941D6 /* mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountain.jpg; sourceTree = "<group>"; };
+		36A3C2FA1BF5F316001941D6 /* mountain_L.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountain_L.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				36A3C2D11BF2ABB9001941D6 /* Assets.xcassets */,
 				36A3C2D31BF2ABB9001941D6 /* LaunchScreen.storyboard */,
 				36A3C2D61BF2ABB9001941D6 /* Info.plist */,
+				36A3C2F81BF3515A001941D6 /* mountain.jpg */,
+				36A3C2FA1BF5F316001941D6 /* mountain_L.jpg */,
 			);
 			path = ClipUIImage;
 			sourceTree = "<group>";
@@ -231,7 +237,9 @@
 			files = (
 				36A3C2D51BF2ABB9001941D6 /* LaunchScreen.storyboard in Resources */,
 				36A3C2D21BF2ABB9001941D6 /* Assets.xcassets in Resources */,
+				36A3C2F91BF3515A001941D6 /* mountain.jpg in Resources */,
 				36A3C2D01BF2ABB9001941D6 /* Main.storyboard in Resources */,
+				36A3C2FB1BF5F316001941D6 /* mountain_L.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,7 @@
 				36A3C2F11BF2ABB9001941D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36A3C2F21BF2ABB9001941D6 /* Build configuration list for PBXNativeTarget "ClipUIImageTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				36A3C2F41BF2ABB9001941D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36A3C2F51BF2ABB9001941D6 /* Build configuration list for PBXNativeTarget "ClipUIImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				36A3C2F71BF2ABB9001941D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
